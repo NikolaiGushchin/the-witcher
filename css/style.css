@@ -226,8 +226,12 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 760px) {
+  .main_content {
+    flex-direction: column;
+  }
   .play_btn {
-    display: none;
+    /* display: none; */
+    margin: 50px 0px 0px 5%;
   }
   .footer_content {
     flex-direction: column;
